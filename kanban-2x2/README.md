@@ -14,7 +14,7 @@ Add this block anywhere in your Roam graph:
 
 > You can nest any 4 child blocks you want under `[[2x2]]` and `{{[[kanban]]}}`, this template is an example that I use
 
-![](https://user-images.githubusercontent.com/635044/108229268-81fb6700-70f4-11eb-9062-99122b4927e7.png)
+![](https://user-images.githubusercontent.com/635044/108231228-65f8c500-70f6-11eb-9a29-4ea7b2e00c29.png)
 
 ## CSS
 
