@@ -34,12 +34,12 @@ div[data-path-page-links*="2x2"] .rm-full-width {
   Styling Tweaks
 */ 
 
-[data-tag="matrix"] ~ .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-title {
+div[data-path-page-links*="2x2"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-title {
   border-bottom: 1px solid rgba(0,0,0,0.2) !important;
 }
 
 /* lighten up card background - less jarring */
-[data-tag="matrix"] ~ .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-card {
+div[data-path-page-links*="2x2"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-card {
   background-color: rgba(256,256,256,0.6) !important;
 }
 
