@@ -1,1 +1,79 @@
+/* 
+  Kanban 2x2 (v1.0.1)
+  Via: @itsjustmath
+*/
 
+div[data-path-page-links*="2x2"] .rm-full-width .kanban-board {
+  padding: 0 !important; /* remove whitespace around quadrant */
+  background-color: transparent !important; /* Strips out some of the default kanban styling, bg colors */
+}
+
+div[data-path-page-links*="2x2"] .rm-full-width .kanban-board .kanban-column-container {
+  overflow-x: unset !important;
+  flex-wrap: wrap !important;
+  padding: 12px 0 !important;
+}
+
+div[data-path-page-links*="2x2"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column {
+  flex: 0 48% !important; /* Any percentage over this doesn't wrap correctly, may need tweaking if you're using other custom CSS, */
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  padding: 4px 12px !important;
+}
+
+/* Hide any columns after the first 4 */
+div[data-path-page-links*="2x2"] .rm-full-width .kanban-board .kanban-column-container .kanban-column:nth-child(n + 5) {
+  display: none !important;
+}
+
+/* Prevent board from overlapping main content container */
+div[data-path-page-links*="2x2"] .rm-full-width {
+  /* margin-right: 0 !important; */
+}
+
+/*
+  Styling Tweaks
+*/ 
+
+[data-tag="matrix"] ~ .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-title {
+  border-bottom: 1px solid rgba(0,0,0,0.2) !important;
+}
+
+/* lighten up card background - less jarring */
+[data-tag="matrix"] ~ .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-card {
+  background-color: rgba(256,256,256,0.6) !important;
+}
+
+/*
+  Sidebar
+*/
+
+/* (Shrink and) make all quadrants viewable in breadcrumbs */
+.rm-sidebar-outline .rm-zoom-item div[data-path-page-links*="2x2"] .rm-full-width .kanban-board .kanban-column-container .kanban-column {
+  flex: 0 23% !important;
+  font-size: 10px !important;
+}
+
+/*
+  Linked References
+*/
+
+.rm-reference-main .rm-reference-container .rm-reference-item .roam-block div[data-path-page-links*="2x2"] .rm-full-width {
+  margin-right: 0 !important; /* keeps a full width kanban within the bounds of the linked ref container */
+}
+
+
+/*
+  Mobile
+*/
+
+@media (max-width: 576px) {
+  /* so the board stays within the viewport */
+  div[data-path-page-links*="2x2"] .rm-full-width .kanban-board .kanban-column-container {
+    max-width: 80vw !important; 
+  }
+  
+  /* Stack the columns on mobile */
+  div[data-path-page-links*="2x2"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column {
+    flex: 100% !important; 
+  }
+}
