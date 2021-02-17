@@ -12,6 +12,9 @@ Add this block anywhere in your Roam graph:
             - [[Not Important]] + [[Urgent]]
             - [[Not Important]] + [[Not Urgent]]
 
+> You can nest any 4 child blocks you want under `[[2x2]]` and `{{[[kanban]]}}`, this template is an example that I use
+
+![](https://user-images.githubusercontent.com/635044/108229268-81fb6700-70f4-11eb-9062-99122b4927e7.png)
 
 ## CSS
 
