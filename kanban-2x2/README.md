@@ -2,7 +2,9 @@
 
 ## Workflow + Template
 
-- [[2x2]]
+Add this block anywhere in your Roam graph:
+
+- [[roam/templates]] [[2x2]] 
     - {{[[kanban]]}}
         - [[Important]] + [[Urgent]]
         - [[Important]] + [[Not Urgent]]
