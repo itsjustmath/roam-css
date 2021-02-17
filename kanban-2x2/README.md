@@ -4,12 +4,13 @@
 
 Add this block anywhere in your Roam graph:
 
-- [[roam/templates]] [[2x2]] 
-    - {{[[kanban]]}}
-        - [[Important]] + [[Urgent]]
-        - [[Important]] + [[Not Urgent]]
-        - [[Not Important]] + [[Urgent]]
-        - [[Not Important]] + [[Not Urgent]]
+- [[roam/templates]] 2x2
+    - [[2x2]]
+        - {{[[kanban]]}}
+            - [[Important]] + [[Urgent]]
+            - [[Important]] + [[Not Urgent]]
+            - [[Not Important]] + [[Urgent]]
+            - [[Not Important]] + [[Not Urgent]]
 
 
 ## CSS
