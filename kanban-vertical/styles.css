@@ -45,9 +45,9 @@
 }
 
 /* Hide the #matrix tag */
-[data-tag="vertical"] {
+/*[data-tag="vertical"] {
   display: none !important; 
-}
+}*/
 
 /*
   Styling Tweaks
