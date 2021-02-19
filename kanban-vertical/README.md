@@ -1,6 +1,6 @@
 ![vertical kanban](https://user-images.githubusercontent.com/635044/108457900-4c579a80-7228-11eb-9f64-3e405147863d.png)
 
-Example:
+## Usage
 - Daily Log [[roam/templates]]
     - #vertical
         - {{[[kanban]]}}
@@ -21,3 +21,11 @@ Example:
             - 7:00 PM
             - 8:00 PM
             - 9:00 PM
+
+## CSS
+
+Insert this line up top on your [[roam/css]] page along with any other @ import lines:
+
+```css
+@import url('https://itsjustmath.github.io/roam-css/kanban-vertical/styles.css');
+```
