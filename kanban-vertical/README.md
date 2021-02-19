@@ -5,7 +5,6 @@ Example:
     - #vertical
         - {{[[kanban]]}}
             - #Inbox
-                - 
             - 6:00 AM
             - 7:00 AM
             - 8:00 AM
