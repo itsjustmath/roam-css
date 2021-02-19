@@ -3,20 +3,20 @@
 */
 
 
-div[data-path-page-links*="vertical"] .rm-full-width .kanban-board {
+div[data-path-page-links*="vertical"] .kanban-board {
   padding: 0 !important; /* remove whitespace */
   background-color: transparent !important; /* Strips out some of the default kanban styling, bg colors */
 }
 
-div[data-path-page-links*="vertical"] .rm-full-width .kanban-board .kanban-column-container {
+div[data-path-page-links*="vertical"] .kanban-board .kanban-column-container {
   max-width: 400px !important;
   flex-direction: column !important;
   padding: 12px 0 !important;
 }
 
-.rm-reference-main .rm-zoom-item div[data-path-page-links*="vertical"] .rm-full-width .kanban-board:after,
-.rm-sidebar-outline .rm-zoom-item div[data-path-page-links*="vertical"] .rm-full-width .kanban-board:after,
-.rm-inline-references div[data-path-page-links*="vertical"] .rm-full-width .kanban-board:after {
+.rm-reference-main .rm-zoom-item div[data-path-page-links*="vertical"] .kanban-board:after,
+.rm-sidebar-outline .rm-zoom-item div[data-path-page-links*="vertical"] .kanban-board:after,
+.rm-inline-references div[data-path-page-links*="vertical"] .kanban-board:after {
   content: "Kanban (Vertical)";
   font-style: italic;
 }
