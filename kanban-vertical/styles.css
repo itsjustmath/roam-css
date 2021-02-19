@@ -8,7 +8,7 @@ div[data-path-page-links*="vertical"] .rm-full-width .kanban-board {
   background-color: transparent !important; /* Strips out some of the default kanban styling, bg colors */
 }
 
-div[data-path-page-links*="vertical"] ~ .rm-full-width .kanban-board .kanban-column-container {
+div[data-path-page-links*="vertical"] .rm-full-width .kanban-board .kanban-column-container {
   max-width: 400px !important;
   flex-direction: column !important;
   padding: 12px 0 !important;
