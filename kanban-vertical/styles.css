@@ -21,13 +21,13 @@ div[data-path-page-links*="vertical"] .kanban-board .kanban-column-container {
   font-style: italic;
 }
 
-.rm-reference-main .rm-zoom-item div[data-path-page-links*="vertical"] .rm-full-width .kanban-board .kanban-column-container,
-.rm-sidebar-outline .rm-zoom-item div[data-path-page-links*="vertical"] .rm-full-width .kanban-board .kanban-column-container,
-.rm-inline-references div[data-path-page-links*="vertical"] .rm-full-width .kanban-board .kanban-column-container {
+.rm-reference-main .rm-zoom-item div[data-path-page-links*="vertical"] .kanban-board .kanban-column-container,
+.rm-sidebar-outline .rm-zoom-item div[data-path-page-links*="vertical"] .kanban-board .kanban-column-container,
+.rm-inline-references div[data-path-page-links*="vertical"] .kanban-board .kanban-column-container {
   display: none;
 }
 
-div[data-path-page-links*="vertical"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column {
+div[data-path-page-links*="vertical"] .kanban-board .kanban-column-container .kanban-column {
   flex: 1 1 auto !important; 
   border: 1px solid rgba(0,0,0,0.1) !important;
   padding: 4px 12px !important;
@@ -36,24 +36,19 @@ div[data-path-page-links*="vertical"] .rm-full-width .kanban-board  .kanban-colu
   border-top: none !important;
 }
 
-div[data-path-page-links*="vertical"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column:first-of-type {
+div[data-path-page-links*="vertical"] .kanban-board  .kanban-column-container .kanban-column:first-of-type {
   border-top: 1px solid rgba(0,0,0,0.1) !important;
 }
 
-div[data-path-page-links*="vertical"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column:last-of-type {
+div[data-path-page-links*="vertical"] .kanban-board  .kanban-column-container .kanban-column:last-of-type {
   border-bottom: 1px solid rgba(0,0,0,0.1) !important;
 }
-
-/* Hide the #matrix tag */
-/*[data-tag="vertical"] {
-  display: none !important; 
-}*/
 
 /*
   Styling Tweaks
 */ 
 
-div[data-path-page-links*="vertical"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-title {
+div[data-path-page-links*="vertical"] .kanban-board  .kanban-column-container .kanban-column .kanban-title {
   text-align: left !important;
   min-height: unset !important;
   max-height: unset !important;
@@ -63,7 +58,7 @@ div[data-path-page-links*="vertical"] .rm-full-width .kanban-board  .kanban-colu
 }
 
 /* lighten up card background - less jarring */
-div[data-path-page-links*="vertical"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-card {
+div[data-path-page-links*="vertical"] .kanban-board  .kanban-column-container .kanban-column .kanban-card {
   background-color: rgba(256,256,256,0) !important;
   margin: 4px 0 !important;
   padding: 4px 0 !important;
