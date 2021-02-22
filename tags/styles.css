@@ -53,28 +53,6 @@
   --cl-orange-900: #e05600ff; /*--persimmon:*/
 }
 
-span.rm-page-ref[data-tag="My Daily Notes"] {
-	background-image: linear-gradient(to right, var(--cl-gray-600),var(--cl-gray-600));
-	background-size: 100%;
-    color: var(--cl-white);
-    padding: 3px 2px 3px 5px;
-    font-size: 13px;
-    line-height: 1em;
-    border-radius: 3px 0 0 3px;
-    position:relative;
-}
-
- span.rm-page-ref[data-tag="My Daily Notes"] + span[data-link-title] {
-     background: var(--cl-gray-200) !important;
-     color: var(--cl-gray-900) !important;
-     padding: 3px 5px 3px 15px;
-     font-size: 13px;
-     line-height: 1em;
-     font-weight: 400;
-     border-radius: 0 3px 3px 0;
-     margin-left: -5px;
-}
-
 /*-----------------------------------------------------------------------------
   Styles
 ----------------------------------------------------------------------------- */
