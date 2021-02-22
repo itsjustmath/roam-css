@@ -58,3 +58,30 @@ textarea {
   background-color: transparent !important; /* override the yellow zoom mask highlight */
 }
 
+
+/* SCOPE HIGHLIGHTING */
+
+.sidebar-content .rm-bullet.rm-bullet--closed .rm-bullet__inner,
+.rm-bullet.rm-bullet--closed .rm-bullet__inner {
+  border-color: var(--scope-bullet-closed);
+}
+
+.roam-block-container:focus-within > .rm-block-main .rm-bullet__inner {
+  border-color: var(--scope-bullet-border);
+}
+
+.rm-block-main:focus-within .rm-bullet__inner {
+  background-color: var(--scope-bullet);
+}
+
+.block-border-left {
+  border-color: var(--border-color-xlight);
+}
+
+.rm-block-children:focus-within > .roam-block-container {
+  border-left-color: var(--border-color-med);
+}
+
+.roam-block-container {
+  border-radius: 0;
+}
