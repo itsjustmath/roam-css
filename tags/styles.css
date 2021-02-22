@@ -1,1 +1,31 @@
 
+/* Variables */
+
+/* Black, White, Gray */
+
+:root {
+  --cl-white:    #ffffff;
+  --cl-gray-100: #f8f9faff; /*--cultured*/
+  --cl-gray-200: #e9ecefff; /*--cultured-2*/
+  --cl-gray-300: #dee2e6ff; /*--gainsboro*/
+  --cl-gray-400: #ced4daff; /*--light-gray*/
+  --cl-gray-500: #adb5bdff; /*--cadet-blue-crayola*/
+  --cl-gray-600: #6c757dff; /*--slate-gray*/
+  --cl-gray-700: #495057ff; /*--davys-grey*/
+  --cl-gray-800: #343a40ff; /*--gunmetal*/
+  --cl-gray-900: #212529ff; /*--charleston-green*/
+  --cl-black:    #000000;
+}
+
+/* Red */
+:root {
+  --cl-red-100: #ffc2c4ff; /*--spanish-pink*/
+  --cl-red-200: #f9acafff; /*--light-pink*/
+  --cl-red-300: #f3969aff; /*--salmon-pink*/
+  --cl-red-400: #ed8084ff; /*--light-coral*/
+  --cl-red-500: #e86b6fff; /*--candy-pink*/
+  --cl-red-600: #e2555aff; /*--indian-red*/
+  --cl-red-700: #dc3f45ff; /*--rose-madder*/
+  --cl-red-800: #d6292fff; /*--amaranth-red*/
+  --cl-red-900: #d0131aff; /*--lava*/
+}
