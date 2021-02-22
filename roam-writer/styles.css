@@ -1,1 +1,60 @@
+/* COLOR SCHEMES */
+
+:root {
+  --left-sidebar-bg: rgba(25, 31, 36, 1);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --border-color-xxlight: rgba(251,251,251);
+    /*--border-color-light: #e8ebec;*/
+    --border-color-light: rgba(219, 219, 219, 1);
+    /*--border-color-med: #d6d9da; */
+    --border-color-med: rgba(203, 202, 205, 1);
+
+    /*--left-sidebar-bg: rgba(25, 31, 36, 1);*/
+
+    /*--scope-bullet: #337ab5;*/
+    --scope-bullet: #296291;
+    /*--scope-bullet: #2e6ea3;*/
+    /*--scope-bullet: #24557f;*/
+    /*--scope-bullet-closed: #e8ebec;*/
+    /*--scope-bullet-border: #d6e4f0;*/
+    --scope-bullet-border: #D6E4F099;
+    /*--scope-bullet-border: #ebf2f8;*/
+    /*--scope-bullet-border: #e3e8eb;*/
+
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*--left-sidebar-bg: transparent;*/
+  }
+}
+
+/* STRUCTURE/MISC */
+
+/* Typography */
+:root {
+  --font-size: 15px;
+  --font-family: 'IA Writer Quattro S', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+body {
+  background-color: var(--body-color);
+  font-size: var(--font-size);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+div,
+textarea {
+  font-family: var(--font-family) !important;
+}
+
+/* breadcrumbs */
+.rm-zoom.zoom-path-view .rm-zoom-mask {
+  background-color: transparent !important; /* override the yellow zoom mask highlight */
+}
 
