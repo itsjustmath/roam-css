@@ -34,3 +34,15 @@
   --cl-red-800: #d6292fff; /*--amaranth-red*/
   --cl-red-900: #d0131aff; /*--lava*/
 }
+
+:root {
+  --cl-orange-100: #ffcdadff; /*--apricot:*/
+  --cl-orange-200: #fbbe97ff; /*--peach-crayola:*/
+  --cl-orange-300: #f7af82ff; /*--macaroni-and-cheese:*/
+  --cl-orange-400: #f3a06cff; /*--atomic-tangerine:*/
+  --cl-orange-500: #f09257ff; /*--atomic-tangerine-2:*/
+  --cl-orange-600: #ec8341ff; /*--princeton-orange:*/
+  --cl-orange-700: #e8742bff; /*--spanish-orange:*/
+  --cl-orange-800: #e46516ff; /*--spanish-orange-2:*/
+  --cl-orange-900: #e05600ff; /*--persimmon:*/
+}
