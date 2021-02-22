@@ -4,7 +4,7 @@
 
 ```css
 @import url('https://itsjustmath.github.io/roam-css/roam-collective/tags.css');
-@import url('https://itsjustmath.github.io/roam-css/roam-collective/variables.css');
+@import url('https://itsjustmath.github.io/roam-css/roam-collective/variables.css'); /* required */
 ```
 
 - Variables
