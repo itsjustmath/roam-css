@@ -29,8 +29,10 @@
 
         --border-color-xxlight: #f5f8fa;
         --border-color-xlight: #f2f3f4;
-        --border-color-light: #e8ebec;
-        --border-color-med: #d6d9da;
+        /*--border-color-light: #e8ebec;*/
+        --border-color-light: rgba(219, 219, 219, 1);
+        /*--border-color-med: #d6d9da; */
+        --border-color-med: rgba(203, 202, 205, 1);
         --border-color-dark: #acb1b4;
         --border-color-trans: rgba(0, 0, 0, 0.1);
         --border-color-trans-light: rgba(0, 0, 0, 0.05);
