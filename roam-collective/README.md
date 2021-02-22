@@ -1,6 +1,6 @@
 # Roam Collective Styles
 
-> Tag styling as a forcing function
+> CSS styling as a forcing function
 
 ```css
 @import url('https://itsjustmath.github.io/roam-css/roam-collective/tags.css');
