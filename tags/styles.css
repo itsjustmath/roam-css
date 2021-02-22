@@ -80,7 +80,7 @@ span.rm-page-ref[data-tag="My Daily Notes"] {
 ----------------------------------------------------------------------------- */
 
 /*-------------------------------
-  #My Daily Notes [[Your Name]]
+  #[[My Daily Notes]] [[Your Name]]
 ------------------------------- */
 
 span.rm-page-ref[data-tag="My Daily Notes"]:after, span.rm-page-ref[data-tag="Post"]:before {
