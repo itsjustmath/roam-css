@@ -1,4 +1,4 @@
-# Roam Collective Styles
+# Roam Collective Styling Conventions
 
 > CSS styling as a forcing function
 
