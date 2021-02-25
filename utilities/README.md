@@ -6,7 +6,6 @@ Import this style sheet to pull in all of the [Boostrap 5 utilities](https://get
 
 ```css
 @import url('https://itsjustmath.github.io/roam-css/utilities/bootstrap.css');
-@import url('https://itsjustmath.github.io/roam-css/utilities/styles.css');
 ```
 
 ## Cheatsheet
