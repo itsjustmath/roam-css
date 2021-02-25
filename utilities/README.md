@@ -8,6 +8,14 @@ Import this style sheet to pull in all of the [Boostrap 5 utilities](https://get
 @import url('https://itsjustmath.github.io/roam-css/utilities/bootstrap.css');
 ```
 
-## Cheatsheet
+## Usage
+
+```
+#.opacity-50
+#.bg-primary
+#.border #.border-warning
+```
+
+### Cheatsheet
 
 Coming soon...
