@@ -1,4 +1,4 @@
-# Bootstrap Utilities for [[Block Level CSS]] 
+# Utilities for [[Block Level CSS]] 
 
 ## Setup
 
