@@ -38,7 +38,7 @@ div[data-path-page-links*="2x2"] .rm-full-width .kanban-board  .kanban-column-co
   border-bottom: 1px solid rgba(0,0,0,0.2) !important;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   /* lighten up card background - less jarring */
   div[data-path-page-links*="2x2"] .rm-full-width .kanban-board  .kanban-column-container .kanban-column .kanban-card {
     background-color: rgba(256,256,256,0.6) !important;
