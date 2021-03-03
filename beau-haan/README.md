@@ -23,4 +23,3 @@ Add any combination of the follow to your [[roam/css]] page in a CSS Code Block:
 - [`colored-lines-colored-bullets.css`](https://roamresearch.com/#/app/Help/page/mEFUBVK3A)
 - [`sticky-headers.css`](https://roamresearch.com/#/app/Help/page/0h5_Qj87w)
 
-Source: https://roamresearch.com/#/app/Help/page/MtLgnGnU8
