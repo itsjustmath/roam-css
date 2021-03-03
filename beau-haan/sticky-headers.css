@@ -1,0 +1,24 @@
+/*-----------------------------------------------------------------------------
+  Beau Haan's Sticky Headers (See: https://roamresearch.com/#/app/Help/page/0h5_Qj87w)
+----------------------------------------------------------------------------- */
+
+.roam-block-container[data-page-links*="sticky"] > .rm-block-main {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background: white;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.034), 
+    0 1px 1px rgba(0, 0, 0, 0.048), 
+    0 12.5px 10px rgba(0, 0, 0, 0.06), 
+    0 12.3px 7.9px rgba(0, 0, 0, 0.072), 
+    0 7.8px 10.4px rgba(0, 0, 0, 0.086), 
+    0 5px 120px rgba(0, 0, 0, 0.12);
+}
+
+span.rm-page-ref[data-tag="sticky"] {
+    display: none;
+}
