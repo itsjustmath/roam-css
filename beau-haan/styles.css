@@ -1,1 +1,215 @@
+/*-----------------------------------------------------------------------------
+  Beau Haan's Styles (See: https://roamresearch.com/#/app/Help/page/MtLgnGnU8)
+  - Rich Text Formatting (for block & page refs)
+  
+----------------------------------------------------------------------------- */
 
+/*-------------------------------
+  Rich Text Formatting (for block & page refs)
+------------------------------- */
+
+[data-page-links*='\"****\"'] > .rm-block-main > .roam-block,
+[data-page-links*='\"****\"'] > .rm-block-main > .rm-autocomplete__wrapper {
+  font-weight: bold;
+}
+
+[data-link-title="****"] {
+  display:none;
+}
+
+[data-page-links*='\"____\"'] > .rm-block-main > .roam-block,
+[data-page-links*='\"____\"'] > .rm-block-main > .rm-autocomplete__wrapper {
+  font-style: italic; 
+}
+
+[data-link-title="____"] {
+  display:none;
+}
+
+[data-page-links*='\"$$$$\"'] > .rm-block-main > .roam-block,
+[data-page-links*='\"$$$$\"'] > .rm-block-main > .rm-autocomplete__wrapper {
+  text-decoration: underline;
+}
+
+[data-link-title="$$$$"] {
+  display:none;
+}
+
+/*-------------------------------
+  Zettlekasten
+------------------------------- */
+
+/* FLEETING NOTES */
+span.rm-page-ref[data-tag="Fleeting Notes"] 
+{ background: #fff;
+  background-size: 100%;
+  color: #000;
+  padding: 2px 5px 2px 5px;
+  font-size: 13px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #f21da140;
+  border-width: thin;
+  position:relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px  #DFDFDF;
+}
+
+/* LITERATURE NOTES */
+span.rm-page-ref[data-tag="Literature Notes"] 
+{ background: #fff;
+  background-size: 100%;
+  color: #000;
+  padding: 2px 5px 2px 5px;
+  font-size: 13px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #215F0040;
+  border-width: thin;
+  position:relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px  #DFDFDF;
+}
+
+/* REFERENCE NOTES */
+span.rm-page-ref[data-tag="Reference Notes"] { 
+  background: #fff;
+  background-size: 100%;
+  color: #000;
+  padding: 2px 5px 2px 5px;
+  font-size: 13px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #f26e1d40;
+  border-width: thin;
+  position:relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px  #DFDFDF;
+}
+
+/* PERMANENT NOTES */
+span.rm-page-ref[data-tag="Permanent Notes"] {
+  background-image: linear-gradient(90deg, #1DA1F2, #1DA1F2);
+  background-size: 100%;
+  color: #FFFFFF;
+  padding: 2px 5px 2px 5px;
+  font-size: 13px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 3px 0 0 3px;
+  position:relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px  #DFDFDF;
+}
+
+span.rm-page-ref[data-tag="Permanent Notes"] + span[data-link-title] { 
+  background: #1DA1F21E !important;
+  color: #F5F8FA !important;
+  padding: 3px 5px 3px 15px;
+  font-size: 13px;
+  line-height: 1em;
+  font-weight: 400;
+  border-radius: 0 3px 3px 0;
+  margin-left: -5px;
+}
+
+span.rm-page-ref[data-tag="Permanent Notes"]:after,
+span.rm-page-ref[data-tag="Permanent Notes"]:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+span.rm-page-ref[data-tag="Permanent Notes"]:after {
+  border-color: rgba(255,255,255,0);
+  border-left-color: #1DA1F2;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+span.rm-page-ref[data-tag="Permanent Notes"]:before {
+  border-color: rgba(255,255,255,0);
+  border-left-color: #1DA1F2;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+/* RELEVANT NOTES */
+span.rm-page-ref[data-tag="Relevant Notes"] {
+  background: white;
+  background-size: 100%;
+  color: #1DA1F2;
+  padding: 2px 5px 2px 5px;
+  font-size: 13px;
+  line-height: 1em;
+  font-weight: 500;
+  border-radius: 5px 5px 5px 5px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: thin;
+  position:relative;
+  box-shadow: 0px 1px 3px -1px #000000, 0px -1px 5px  #DFDFDF;
+}
+
+span.rm-page-ref[data-tag="Relevant Notes"] + span[data-link-title] {
+  background: #1DA1F210 !important;
+  color: #F3F7F2 !important;
+  padding: 3px 5px 3px 8px;
+  font-size: 13px;
+  line-height: 1em;
+  font-weight: 400;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -8px; 
+  box-shadow: inset -1px 1px 5px #AAAAAA63, inset 1px -1px 3px #F6F6F6;
+}
+
+/*-------------------------------
+  Colored Lines & Colored Bullets
+------------------------------- */
+
+.roam-block-container  div.roam-block-container {
+  box-shadow: -2px 0px #BFCCD6);
+  transition: box-shadow 1s;
+}
+
+.roam-block-container div.roam-block-container:hover {
+  box-shadow: -2px 0px #FF877E;
+  transition:  box-shadow 0.5s;
+}
+
+.roam-block-container:focus-within > .rm-block-main > div:nth-child(1) 
+.rm-bullet .rm-bullet__inner {
+  background-color: #FF877E;
+}
+
+/*-------------------------------
+  Sticky Headers
+------------------------------- */
+
+.roam-block-container[data-page-links*="sticky"] > .rm-block-main {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background: white;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.034), 
+    0 1px 1px rgba(0, 0, 0, 0.048), 
+    0 12.5px 10px rgba(0, 0, 0, 0.06), 
+    0 12.3px 7.9px rgba(0, 0, 0, 0.072), 
+    0 7.8px 10.4px rgba(0, 0, 0, 0.086), 
+    0 5px 120px rgba(0, 0, 0, 0.12);
+}
+
+span.rm-page-ref[data-tag="sticky"] {
+    display: none;
+}
