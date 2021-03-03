@@ -2,10 +2,6 @@
   Beau Haan's Rich Text Formatting for Block & Page Refs (See: https://roamresearch.com/#/app/Help/page/8tSYOATc5)
 ----------------------------------------------------------------------------- */
 
-/*-------------------------------
-  
-------------------------------- */
-
 [data-page-links*='\"****\"'] > .rm-block-main > .roam-block,
 [data-page-links*='\"****\"'] > .rm-block-main > .rm-autocomplete__wrapper {
   font-weight: bold;
