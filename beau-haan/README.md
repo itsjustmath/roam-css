@@ -1,4 +1,4 @@
-# Beau's Digital Zettlekasten¹
+# Beau's Digital Zettlekasten
 
 Add any combination of the follow to your [[roam/css]] page in a CSS Code Block:
 
@@ -10,8 +10,10 @@ Add any combination of the follow to your [[roam/css]] page in a CSS Code Block:
 
 ### Pick and Choose
 ```css
-@import url('https://itsjustmath.github.io/roam-css/beau-haan/styles.css');
+@import url('https://itsjustmath.github.io/roam-css/beau-haan/ref-formatting.css');
+@import url('https://itsjustmath.github.io/roam-css/beau-haan/zettelkasten.css');
+@import url('https://itsjustmath.github.io/roam-css/beau-haan/colored-lines-colored-bullets.css');
+@import url('https://itsjustmath.github.io/roam-css/beau-haan/sticky-headers.css');
 ```
 
-
-[1]: https://roamresearch.com/#/app/Help/page/MtLgnGnU8
+Source: https://roamresearch.com/#/app/Help/page/MtLgnGnU8
