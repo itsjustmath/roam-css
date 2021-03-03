@@ -1,0 +1,18 @@
+/*-----------------------------------------------------------------------------
+  Beau Haan's Colored Lines & Colored Bullets (See: https://roamresearch.com/#/app/Help/page/mEFUBVK3A)
+----------------------------------------------------------------------------- */
+
+.roam-block-container  div.roam-block-container {
+  box-shadow: -2px 0px #BFCCD6);
+  transition: box-shadow 1s;
+}
+
+.roam-block-container div.roam-block-container:hover {
+  box-shadow: -2px 0px #FF877E;
+  transition:  box-shadow 0.5s;
+}
+
+.roam-block-container:focus-within > .rm-block-main > div:nth-child(1) 
+.rm-bullet .rm-bullet__inner {
+  background-color: #FF877E;
+}
