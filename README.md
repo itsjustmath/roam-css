@@ -3,8 +3,6 @@
 Add any of these `@import` blocks to your [[roam/css]] page in a CSS Code Block:
 
 ### Beau Haan's CSS Sprinkles 
-
-Includes:
 - [Block & Page Reference Formatting](https://roamresearch.com/#/app/Help/page/8tSYOATc5)
 - [Zettlekasten Styles](https://roamresearch.com/#/app/Help/page/ULnYNyHbj)
   - Fleeting Notes, Literature Notes, Permanent Notes, Relevant Notes
