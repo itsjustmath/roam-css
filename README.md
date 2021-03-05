@@ -3,7 +3,7 @@
 Add any combination of the following `@import` code blocks to the top of your [[roam/css]] page in a CSS Code Block.
 
 **Table of Contents:**
-- [Beau Haan's CSS Sprinkles](https://github.com/itsjustmath/roam-css#beau-haans-css-sprinkles)
+- [Beau's Digital Zettlekasten (+ CSS Sprinkles)](https://github.com/itsjustmath/roam-css/blob/main/README.md#beau-haans-digital-zettlekasten--css-sprinkles)
 - [Kanban 2x2 (aka Eisenhower Matrix)](https://github.com/itsjustmath/roam-css#kanban-2x2-aka-eisenhower-matrix) 
 - [Kanban Vertical](https://github.com/itsjustmath/roam-css#kanban-vertical)
 
