@@ -1,8 +1,13 @@
 # [[roam/css]]
 
-Add any of these `@import` blocks to your [[roam/css]] page in a CSS Code Block:
+Add any combination of the following `@import` code blocks to the top of your [[roam/css]] page in a CSS Code Block.
 
-## Beau Haan's CSS Sprinkles 
+**Table of Contents:**
+- [Beau Haan's CSS Sprinkles](https://github.com/itsjustmath/roam-css#beau-haans-css-sprinkles)
+- [Kanban 2x2 (aka Eisenhower Matrix)](https://github.com/itsjustmath/roam-css#kanban-2x2-aka-eisenhower-matrix) 
+- [Kanban Vertical](https://github.com/itsjustmath/roam-css#kanban-vertical)
+
+## [Beau Haan's Digital Zettlekasten + CSS Sprinkles](https://github.com/itsjustmath/roam-css/tree/main/beau-haan)
 - [Block & Page Reference Formatting](https://roamresearch.com/#/app/Help/page/8tSYOATc5)
 - [Zettlekasten Styles](https://roamresearch.com/#/app/Help/page/ULnYNyHbj)
   - Fleeting Notes, Literature Notes, Permanent Notes, Relevant Notes
