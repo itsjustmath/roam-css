@@ -1,6 +1,6 @@
 # Beau's Digital Zettlekasten
 
-Add any combination of the follow to your [[roam/css]] page in a CSS Code Block:
+Add any combination of the following to the **top** of your [[roam/css]] page in a CSS Code Block:
 
 ### All Styles
 
